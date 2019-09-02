@@ -8,16 +8,4 @@ describe('Login', () => {
         const wrapper = shallow(<Login />);
         expect(toJson(wrapper)).toMatchSnapshot();
     });
-
-    /*
-    it('T1 - Test username', () => {
-        const wrapper = shallow(<Login />);
-        wrapper
-            .find('input[type="text"]')
-            .simulate('change', {
-                target: { name: 'username', value: 'user' }
-            });
-        expect(wrapper.state('username')).toEqual('user');
-    });
-    */
 });

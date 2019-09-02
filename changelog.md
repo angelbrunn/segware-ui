@@ -1,4 +1,5 @@
-## Version 1.0.0 R1
+
+### 1.0.0 (1 September 2019) | R1
 - Structure React project
 - Handle Files Enviroments
 - fake MockBackEnd
@@ -17,7 +18,23 @@
 - Implements Authentification with custom router
 - Test with Jest/enzyme
 
-## Version 1.0.1 | BUGFIXED
-- Improve coverage
-- more specific components
+##### Components
+
+-   ⭐ Header
+-   ⭐ Home
+-   ⭐ Admin
+-   ⭐ Login
+-   ⭐ FormPosted
+-   ⭐ Posted
+-   ⭐ Services axios
+-   🐞 bug00 - config is not exported in jest
+-   🐞 bug01 - onclick method in components
+
+##### Foundation
+
+-   🔧 all fixes here . . . 
+
+**Known bug:** 
+
+-   use rem not px
 
