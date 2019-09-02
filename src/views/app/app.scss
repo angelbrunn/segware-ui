@@ -1,0 +1,13 @@
+@import './src/views/admin/admin';
+@import './src/views/home/home';
+@import './src/views/login/login';
+@import '../../components/posted/posted';
+@import '../../components/form/formPosted';
+
+body {
+    background: #f2f2f2;
+}
+
+.navbar-nav{
+    font-size: 18px;
+}

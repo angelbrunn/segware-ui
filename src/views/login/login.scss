@@ -1,0 +1,24 @@
+.Login {
+    margin: 0 auto;
+    width: 40%;
+    &-Info {
+        font-size: 17px;
+    }
+    .form-group {
+        font-size: 14px;
+    }
+    .btn-primary {
+        font-size: 20px;
+    }
+    .form-control {
+        font-size: 20px;
+    }
+    &-Auth {
+        font-weight: 400;
+    }
+    .invalid {
+        &-feedback {
+            font-size: 14px;
+        }
+    }
+}
